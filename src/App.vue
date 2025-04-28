@@ -6,7 +6,6 @@ import MainLayout from './layout/MainLayout.vue'
 import { computed } from 'vue'
 
 const route = useRoute()
-console.log(route)
 
 const layout = computed(() => {
   if (route.meta.layout === 'auth') {
