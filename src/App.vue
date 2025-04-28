@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import './assets/styles/styles.scss'
+import Header from './components/Header.vue'
+import Footer from './components/Footer/index.vue'
 </script>
 
 <template>
-  <RouterView />
-  <h1>Hello World</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+  <Header />
+  <main>
+    <RouterView />
+  </main>
+  <Footer />
 </template>

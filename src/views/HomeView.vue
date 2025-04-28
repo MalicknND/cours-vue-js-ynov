@@ -1,5 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// import TitlePage from '@/components/TitlePage/index.vue'
+</script>
 
 <template>
-  <main></main>
+  <TitlePage title="HomePage" />
 </template>
